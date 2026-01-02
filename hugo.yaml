@@ -33,7 +33,7 @@ params:
   animate: true
 
   navbar:
-    brandName: "Yustin :-)"
+    brandName: "Yustin Lau :-)"
     stickyNavBar:
       enable: true
     # --- 关键点：这里全部设为 true，禁用主题自带的重复导航项 ---
@@ -49,7 +49,7 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Yuxing Lau."
+    title: "Yuxing Liu."
     subtitle: "Linux Kernel Developer | OS for AI Enthusiast"
     content: "Focused on high-performance computing, kernel optimization, and building the OS layer for the AI era."
     image: /images/avatar.jpg # 请确保 static/images/avatar.jpg 存在
