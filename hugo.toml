@@ -1,13 +1,13 @@
 baseURL = "https://yustinlau.github.io/"
 languageCode = "en-us"
-title = "Yustin Lau | Linux Kernel"
+title = "Yustin Lau | OS for AI"
 theme = "hugo-profile"
 
 [pagination]
     pagerSize = 6
 
 [params]
-    description = "Linux Kernel Engineer | OS for AI"
+    description = "Linux Kernel Developer | OS for AI"
     # 强制开启一些可能被关闭的组件
     showTitleLogo = true
     
@@ -15,9 +15,9 @@ theme = "hugo-profile"
     [params.hero]
         enable = true
         title = "Hi, I'm Yustin Lau"
-        subtitle = "Linux Kernel Engineer | OS for AI Enthusiast"
+        subtitle = "Linux Kernel Developer | OS for AI Enthusiast"
         content = "Focused on high-performance computing and kernel optimization."
-        image = "images/avatar.png"
+        image = "images/blue-pink.jpg"
         [params.hero.button]
             enable = true
             label = "View My Resume"
