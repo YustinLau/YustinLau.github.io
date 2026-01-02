@@ -1,0 +1,121 @@
+baseURL: "https://yustinlau.github.io/"
+languageCode: "en-us"
+title: "Yustin Lau | OS for AI"
+theme: hugo-profile
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # 允许在 Markdown 中使用 HTML
+
+# 导航栏配置
+Menus:
+  main:
+    - identifier: about
+      name: About me
+      url: /#about
+      weight: 1
+    - identifier: experience
+      name: Experience
+      url: /#experience
+      weight: 2
+    - identifier: post
+      name: Posts
+      url: /posts  # 注意：这里对应你 content 下的文件夹名，如果是 posts 请改为 /posts
+      weight: 3
+
+params:
+  title: "Yustin Lau"
+  description: "Linux Kernel Developer | OS for AI"
+  animate: true
+
+  navbar:
+    brandName: "Yustin :-)"
+    stickyNavBar:
+      enable: true
+    # --- 关键点：这里全部设为 true，禁用主题自带的重复导航项 ---
+    menus:
+      disableAbout: true      # 禁用自动生成的 About
+      disableExperience: true # 禁用自动生成的 Experience
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: true
+      disableContact: true
+
+  # 1. 首页 Hero 部分
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Yuxing Lau."
+    subtitle: "Linux Kernel Developer | OS for AI Enthusiast"
+    content: "Focused on high-performance computing, kernel optimization, and building the OS layer for the AI era."
+    image: /images/avatar.jpg # 请确保 static/images/avatar.jpg 存在
+    button:
+      enable: true
+      name: "View Full Resume"
+      # url: "/about" # 跳转到独立页面
+      url: "/CV_LiuYuxing.pdf" 
+      # 2. 建议开启新标签页打开，这样用户看完简历不会关闭你的网站
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/YustinLau
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/yuxingliu0619
+
+  # 2. About Section (修复了之前 skills 报错的问题)
+  about:
+    enable: true
+    title: "About Me"
+    content: |
+      I am a Linux Kernel Engineer passionate about system-level optimization. 
+      My work focuses on bridging the gap between Operating Systems and modern AI workloads.
+    skills:
+      enable: true
+      title: "Core Technologies:"
+      items:
+        - "C/C++"
+        - "Linux Kernel"
+        - "Python"
+
+  # 3. Experience Section (你可以直接在这里加简历，不用 data 文件了)
+  experience:
+    enable: true
+    items:
+      - company: "Huawei - 2012 Lab"
+        jobs:
+          - name: "Linux Kernel Engineer"
+            date: "Aug 2025 - present"
+            content: "Optimizing memory management and scheduler for AI training."              
+              # [**📄 Download My Full Resume (PDF)**](/CV_LiuYuxing.pdf)
+      - company: "Huawei - Digital Power"
+        jobs:
+          - name: "AI Engineer"
+            date: "May 2024 - Jul 2025"
+            content: "TBC."
+      - company: "Ericsson"
+        jobs:
+          - name: "Python Developer Intern"
+            date: " 2024 -  2024"
+            content: "TBC."
+      - company: "Hikvision"
+        jobs:
+          - name: "Software Test Engineer Intern"
+            date: " Jul 2021 - Aug 2021"
+            content: "TBC."
+  # 4. Footer 社交媒体
+  footer:
+    socialNetworks:
+      github: https://github.com/YustinLau
+      linkedin: https://linkedin.com/in/yuxingliu0619
+
+  # 文章页面配置
+  singlePages:
+    readTime:
+      enable: true
+    scrollprogress:
+      enable: true

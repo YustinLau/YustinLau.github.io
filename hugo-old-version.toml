@@ -15,9 +15,9 @@ theme = "hugo-profile"
     [params.hero]
         enable = true
         title = "Hi, I'm Yustin Lau"
-        subtitle = "Linux Kernel Developer | OS for AI Enthusiast"
+        subtitle = "Linux Kernel Developer <br> OS for AI Enthusiast"
         content = "Focused on high-performance computing and kernel optimization."
-        image = "images/blue-pink.jpg"
+        image = "images/avatar.jpg"
         [params.hero.button]
             enable = true
             label = "View My Resume"
@@ -25,11 +25,13 @@ theme = "hugo-profile"
 
     # 2. 社交图标 (修正为主题推荐的格式)
     [[params.socialIcons]]
+        enable = true
         icon = "fab fa-github" # 必须带前缀
         title = "GitHub"
         url = "https://github.com/YustinLau"
 
     [[params.socialIcons]]
+        enable = true
         icon = "fab fa-linkedin"
         title = "LinkedIn"
         url = "https://linkedin.com/in/yuxingliu0619"
