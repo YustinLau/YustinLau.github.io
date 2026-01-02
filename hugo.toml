@@ -1,4 +1,4 @@
-baseURL = "https://YustinLau.github.io/"
+baseURL = "https://yustinlau.github.io/"
 languageCode = "en-us"
 title = "Yustin Lau | Linux Kernel"
 theme = "hugo-profile"
