@@ -91,6 +91,7 @@ params:
   # 3. Experience Section (你可以直接在这里加简历，不用 data 文件了)
   experience:
     enable: true
+    title: "Work Experience"
     items:
       - company: "Huawei - 2012 Lab"
         jobs:
