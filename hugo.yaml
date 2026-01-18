@@ -61,7 +61,7 @@ params:
       enable: true
       name: "View Full Resume"
       # url: "/about" # 跳转到独立页面
-      url: "/cv_en_intern_to_hik.pdf" 
+      url: "/cv_en_toHW_gpt.pdf" 
       # 2. 建议开启新标签页打开，这样用户看完简历不会关闭你的网站
       newPage: true
     socialLinks:
@@ -76,8 +76,8 @@ params:
     enable: true
     title: "About Me"
     content: |
-      I am a Linux Kernel Engineer passionate about system-level optimization. 
-      My work focuses on bridging the gap between Operating Systems and modern AI workloads.
+      OS and AI infrastructure engineer with hands-on experience in kernel-level optimization, embedded systems, and large-scale workload analysis, 
+      focusing on performance-critical and resource-constrained environments.
     skills:
       enable: true
       title: "Core Technologies:"
@@ -93,27 +93,53 @@ params:
     enable: true
     title: "Work Experience"
     items:
-      - company: "Huawei - 2012 Lab"
+      - company: "Huawei - 2012 Laboratories"
         jobs:
-          - name: "Linux Kernel Engineer"
-            date: "Aug 2025 - present"
-            content: "Optimizing memory management and scheduler for AI training."              
-              # [**📄 Download My Full Resume (PDF)**](/CV_LiuYuxing.pdf)
+          - name: "Linux Kernel Development Engineer"
+            date: "Aug 2025 - Present"
+            content: |
+              Team: Central Software Institute · OS Department · openEuler Lab
+
+              Focus: OS for AI · openEuler · Kernel-level Communication · System Performance Optimization
+              - Designed and implemented kernel-level communication optimizations for data-intensive workloads on openEuler, focusing on performance-critical paths in OS–application interaction.
+              -	Applied kernel-space memory pooling and communication mechanisms to distributed data processing frameworks (e.g., Flink), enabling system-level acceleration under multi-cluster environments.
+              -	Conducted end-to-end workload analysis across OS, runtime, and application layers to identify communication and scheduling bottlenecks.
+              -	Delivered the full engineering cycle independently, including technical design, kernel module development, application-side adaptation, and validation.
+              -	Built automated benchmarking and validation pipelines for distributed workloads, improving reproducibility, resource utilization efficiency, and engineering verification productivity.
       - company: "Huawei - Digital Power"
         jobs:
-          - name: "AI Engineer"
+          - name: "AI Software Engineer"
             date: "May 2024 - Jul 2025"
-            content: "TBC."
+            content: |
+              Team: Digital Energy R&D Center · Controller Platform · Intelligent PV Controller
+              
+              Focus: Energy Scheduling · Power Control · Embedded Controller Systems
+              
+              -	Developed embedded software for PV inverter and energy storage controller systems, with a primary focus on energy scheduling and power regulation modules.
+              -	Implemented core control logic including power dispatching, demand control, and multi-layer scheduling strategies with priority coordination.
+              -	Participated in the software architecture design of energy scheduling modules for next-generation controller platforms, improving extensibility and maintainability.
+              -	Supported production systems by diagnosing and resolving complex field issues across multiple product generations.
+              -	Led departmental knowledge management initiatives, introducing RAG-based solutions to internal knowledge bases to improve knowledge reuse and onboarding efficiency.
       - company: "Ericsson"
         jobs:
           - name: "Python Developer Intern"
-            date: " 2024 -  2024"
-            content: "TBC."
+            date: " Aug 2023 - Nov 2023"
+            content: |
+              Team: IND Product Design & Technical Support
+
+              -	Contributed to the Smart Troubleshooting System (STS) for automated detection and localization of equipment anomalies.
+              -	Developed backend data processing and high-throughput log analysis scripts using asynchronous programming techniques.
+              -	Improved anomaly detection effectiveness through algorithmic and parameter-level optimization.
       - company: "Hikvision"
         jobs:
           - name: "Software Test Engineer Intern"
             date: " Jul 2021 - Aug 2021"
-            content: "TBC."
+            content: |
+              Team: Backend Product  R&D Center
+              -	Participated in embedded system validation and automated testing, focusing on stability, performance, and integration.
+              -	Developed Python-based automation scripts for functional and performance testing.
+              -	Gained hands-on experience with Linux-based embedded devices and basic image processing workflows.
+  
   # 4. Footer 社交媒体
   footer:
     socialNetworks:
