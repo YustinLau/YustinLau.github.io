@@ -19,9 +19,13 @@ Menus:
       url: /#about
       weight: 1
     - identifier: experience
-      name: Experience
+      name: Work Experience
       url: /#experience
       weight: 2
+    # - identifier: research
+    #   name: Research Projects
+    #   url: /#research
+    #   weight: 3
     - identifier: post
       name: Posts
       url: /posts  # 注意：这里对应你 content 下的文件夹名，如果是 posts 请改为 /posts
@@ -57,7 +61,7 @@ params:
       enable: true
       name: "View Full Resume"
       # url: "/about" # 跳转到独立页面
-      url: "/CV_LiuYuxing.pdf" 
+      url: "/cv_en_intern_to_hik.pdf" 
       # 2. 建议开启新标签页打开，这样用户看完简历不会关闭你的网站
       newPage: true
     socialLinks:
@@ -81,6 +85,8 @@ params:
         - "C/C++"
         - "Linux Kernel"
         - "Python"
+        - "TensorFlow"
+        - "Pytorch"
 
   # 3. Experience Section (你可以直接在这里加简历，不用 data 文件了)
   experience:
