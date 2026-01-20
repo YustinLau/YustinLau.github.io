@@ -125,7 +125,7 @@ params:
               Team: Digital Energy R&D Center · Controller Platform · Intelligent PV Controller
               
               Focus: Intelligent Real-time Energy Scheduling, AI-driven Power Optimization, Embedded Software Architecture.
-              - Served as a core developer for the intelligent controller energy scheduling module; spearheaded the design of critical subsystems, including  DI (Digital Input) dry contact scheduling , to enable millisecond-level real-time power optimization and grid compliance.
+              - Served as a core developer for the intelligent controller energy scheduling module; spearheaded the design of critical subsystems, including  DI (Dry Contact Input) scheduling , to enable millisecond-level real-time power optimization and grid compliance.
               - Collaborated on the architecture of  multi-strategy coupled scheduling  for AI-driven solar-storage power regulation, resolving challenges in  real-time collaborative control  and synchronization for large-scale embedded devices under complex conditions.
               - Investigated and resolved  complex firmware-level issues  in live-network products, ensuring system stability and reliability in mission-critical, high-availability scenarios.
       
