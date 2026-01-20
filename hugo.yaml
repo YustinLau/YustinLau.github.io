@@ -61,7 +61,7 @@ params:
       enable: true
       name: "View Full Resume"
       # url: "/about" # 跳转到独立页面
-      url: "/cv_en_toHW_kimi.pdf" 
+      url: "/cv_en_toHW_gemini.pdf" 
       # 2. 建议开启新标签页打开，这样用户看完简历不会关闭你的网站
       newPage: true
     socialLinks:
@@ -76,13 +76,15 @@ params:
     enable: true
     title: "About Me"
     content: |
-      Operating systems specialist with deep expertise in kernel-level performance optimization 
-      for AI/big data workloads and embedded controller architecture for energy management systems. 
-      Proven track record delivering XX%+ performance improvements and building automation frameworks 
-      that reduce operational overhead by XX%+.
+      Kernel-level tinkerer & Embedded enthusiast. I specialize in bridging the gap between hardware and software. 
+      With a deep background in Linux Kernel optimization and real-time embedded architecture, 
+      I have a track record of squeezing every bit of performance out of distributed systems and intelligent controllers. 
+      From refactoring kernel memory pools to designing millisecond-level scheduling, 
+      I love solving complex "impossible" bugs at the OS level. 
+      Excited to bring high-performance, power-aware firmware solutions to the Pixel Sensor ecosystem.
     skills:
       enable: true
-      title: "Core Technologies Involved:"
+      title: "Core Skills Involved:"
       items:
         - "C/C++" 
         - "Python"
@@ -106,15 +108,15 @@ params:
     items:
       - company: "Huawei - 2012 Laboratories"
         jobs:
-          - name: "Operating System Development Engineer"
+          - name: "Linux Kernel Developer"
             date: "Aug 2025 - Present"
             content: |
               Team: Central Software Institute · OS Department · openEuler Lab
 
-              Focus: OS for AI · openEuler · kernel communication, big data workload analysis
-              - Drove technical landing of kernel-level memory-pooling communication acceleration for distributed computing frameworks, developing production-grade kernel drivers and validation frameworks
-              - Built automation validation system with industry-standard benchmark pipelines, achieving XX%+ cross-node task acceleration, XX%+ server utilization improvement, and XX%+ manual effort reduction
-              - Analyzed distributed system communication patterns to diagnose OS-level bottlenecks via zero-copy and memory semantics optimization
+              Focus: Operating Systems, OS for AI, Kernel Communication Optimization, High-throughput Data Load Analysis.
+              - Led performance acceleration for openEuler kernel communication modules, leveraging Memory Pooling and Zero-copy technologies to optimize data transfer and significantly enhance cross-node memory communication efficiency for distributed frameworks (Flink).
+              - Diagnosed kernel-space communication bottlenecks and optimized algorithm paths through deep analysis of OS-level scheduling and resource consumption, increasing system throughput under high-traffic data loads.
+              - Constructed and end-to-end automated performance evaluation pipeline using industry-standard benchmarks to achieve production-grade validation of kernel changes, substantially improving server resource utilization.
       - company: "Huawei - Digital Power"
         jobs:
           - name: "AI Software Engineer"
@@ -122,11 +124,10 @@ params:
             content: |
               Team: Digital Energy R&D Center · Controller Platform · Intelligent PV Controller
               
-              Focus: Intelligent energy dispatch, AI-driven power optimization, embedded software architecture
-              
-              - Architected and implemented core energy dispatch modules for smart controllers, leading DI dry-node scheduling and multiple critical subsystem designs to enable millisecond-level dynamic power optimization and grid compliance
-              - Engineered AI-powered PV-storage regulation within a multi-strategy coupled dispatch framework, achieving real-time coordinated control across large-scale deployments; delivered XXk+ lines of production-grade code and X+ core module designs
-              - Diagnosed and resolved X+ critical field issues in legacy product lines; spearheaded AI-RAG knowledge management initiative, accelerating cross-team knowledge transfer and onboarding efficiency
+              Focus: Intelligent Real-time Energy Scheduling, AI-driven Power Optimization, Embedded Software Architecture.
+              - Served as a core developer for the intelligent controller energy scheduling module; spearheaded the design of critical subsystems, including  DI (Digital Input) dry contact scheduling , to enable millisecond-level real-time power optimization and grid compliance.
+              - Collaborated on the architecture of  multi-strategy coupled scheduling  for AI-driven solar-storage power regulation, resolving challenges in  real-time collaborative control  and synchronization for large-scale embedded devices under complex conditions.
+              - Investigated and resolved  complex firmware-level issues  in live-network products, ensuring system stability and reliability in mission-critical, high-availability scenarios.
       
       - company: "Ericsson"
         jobs:
@@ -135,10 +136,8 @@ params:
             content: |
               Team: IND Product Design & Technical Support
 
-              Focus: Intelligent fault diagnosis, automation
-
-              - Contributed to ML-based fault diagnosis system, improving equipment anomaly detection accuracy by X%
-              -  Developed async backend data pipeline achieving XXXk+ records/second log processing throughput
+              - Contributed to the Smart Troubleshooting System (STS) by developing high-performance log processing scripts using  asynchronous programming , significantly improving data throughput.
+              - Optimized anomaly detection algorithms and model parameters, enhancing the accuracy of hardware fault identification.
       - company: "Hikvision"
         jobs:
           - name: "Software Test Engineer Intern"
@@ -146,10 +145,8 @@ params:
             content: |
               Team: Backend Product  R&D Center
 
-              Focus: Embedded system validation, test automation
-
-              - Developed integration and performance testing frameworks for Linux-based embedded devices; participated in network protocol simulation and security scanning
-              - Created X+ RESTful API automated test suites, improving test efficiency by XX%+ via multi-threading and algorithmic optimization
+              - Developed Python-based automated test suites for  DVR embedded systems  via RESTful APIs, covering data transmission and white-box testing.
+              - Improved module responsiveness and accuracy using  multi-threaded parallel processing  and image denoising techniques for motion detection features.
   
   # 4. Footer 社交媒体
   footer:
