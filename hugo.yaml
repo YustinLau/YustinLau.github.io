@@ -113,7 +113,7 @@ params:
 
               Focus: OS for AI · openEuler · kernel communication, big data workload analysis
               - Drove technical landing of kernel-level memory-pooling communication acceleration for distributed computing frameworks, developing production-grade kernel drivers and validation frameworks
-              - Built automation validation system with industry-standard benchmark pipelines, achieving 15%+ cross-node task acceleration, XX%+ server utilization improvement, and XX%+ manual effort reduction
+              - Built automation validation system with industry-standard benchmark pipelines, achieving XX%+ cross-node task acceleration, XX%+ server utilization improvement, and XX%+ manual effort reduction
               - Analyzed distributed system communication patterns to diagnose OS-level bottlenecks via zero-copy and memory semantics optimization
       - company: "Huawei - Digital Power"
         jobs:
@@ -137,8 +137,8 @@ params:
 
               Focus: Intelligent fault diagnosis, automation
 
-              - Contributed to ML-based fault diagnosis system, improving equipment anomaly detection accuracy by 5%
-              -  Developed async backend data pipeline achieving 100k+ records/second log processing throughput
+              - Contributed to ML-based fault diagnosis system, improving equipment anomaly detection accuracy by X%
+              -  Developed async backend data pipeline achieving XXXk+ records/second log processing throughput
       - company: "Hikvision"
         jobs:
           - name: "Software Test Engineer Intern"
@@ -149,7 +149,7 @@ params:
               Focus: Embedded system validation, test automation
 
               - Developed integration and performance testing frameworks for Linux-based embedded devices; participated in network protocol simulation and security scanning
-              - Created 10+ RESTful API automated test suites, improving test efficiency by 15%+ via multi-threading and algorithmic optimization
+              - Created X+ RESTful API automated test suites, improving test efficiency by XX%+ via multi-threading and algorithmic optimization
   
   # 4. Footer 社交媒体
   footer:
